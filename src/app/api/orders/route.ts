@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { orderSchema } from "@/lib/validation";
+import { sendOrderNotificationToAdmin, sendOrderConfirmationToCustomer } from "@/lib/email";
 
 export async function POST(request: Request) {
   try {
@@ -16,30 +17,49 @@ export async function POST(request: Request) {
 
     const order = result.data;
 
-    // Generate a simple order ID
+    // Generate order ID
     const orderId = `BCO-${Date.now()}-${Math.random().toString(36).substring(2, 7).toUpperCase()}`;
 
-    // Log order to console (for testing - replace with AWS SES/DynamoDB later)
+    // Log order to console
     console.log("=== NEW ORDER RECEIVED ===");
     console.log("Order ID:", orderId);
     console.log("Customer:", order.name, "-", order.email);
     console.log("Phone:", order.phone || "Not provided");
     console.log("Product:", order.product);
     console.log("Quantity:", order.quantity);
-    console.log("Shipping:", order.shippingAddress || "To be confirmed");
-    console.log("Notes:", order.notes || "None");
     console.log("Submitted:", new Date().toISOString());
     console.log("==========================");
 
-    // TODO: Send email via AWS SES
-    // TODO: Store in DynamoDB
+    // Send email notifications
+    const emailData = {
+      orderId,
+      customerName: order.name,
+      customerEmail: order.email,
+      customerPhone: order.phone,
+      product: order.product,
+      quantity: order.quantity,
+      shippingAddress: order.shippingAddress,
+      notes: order.notes,
+    };
+
+    try {
+      // Send both emails in parallel
+      await Promise.all([
+        sendOrderNotificationToAdmin(emailData),
+        sendOrderConfirmationToCustomer(emailData),
+      ]);
+      console.log("Order emails sent successfully");
+    } catch (emailError) {
+      // Log email error but don't fail the order
+      console.error("Failed to send order emails:", emailError);
+    }
 
     return NextResponse.json({
       success: true,
       orderId,
-      message: "Your reservation has been received! Check your email for wire/ACH payment instructions.",
+      message: "Your reservation has been received! Check your email for confirmation.",
       wireInstructions: {
-        bankName: "To be provided via email",
+        bankName: "Wire instructions will be sent via email",
         reference: orderId,
       },
       orderSummary: {

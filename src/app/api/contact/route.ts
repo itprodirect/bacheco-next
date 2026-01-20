@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { contactSchema } from "@/lib/validation";
+import { sendContactNotification } from "@/lib/email";
 
 export async function POST(request: Request) {
   try {
@@ -16,15 +17,21 @@ export async function POST(request: Request) {
 
     const contact = result.data;
 
-    // Log contact to console (for testing - replace with AWS SES later)
+    // Log contact to console
     console.log("=== NEW CONTACT MESSAGE ===");
     console.log("From:", contact.name, "-", contact.email);
     console.log("Subject:", contact.subject);
-    console.log("Message:", contact.message);
     console.log("Received:", new Date().toISOString());
     console.log("===========================");
 
-    // TODO: Send email via AWS SES to nick@itprodirect.com
+    // Send email notification
+    try {
+      await sendContactNotification(contact);
+      console.log("Contact email sent successfully");
+    } catch (emailError) {
+      console.error("Failed to send contact email:", emailError);
+      // Still return success to user, but log the error
+    }
 
     return NextResponse.json({
       success: true,
