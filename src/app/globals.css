@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base styles */
+body {
+  @apply antialiased;
+}
+
+/* Dark theme (default) */
+.dark {
+  --color-bg: #0b0f17;
+  --color-card: #121a26;
+  --color-text: #e8eef7;
+  --color-muted: #93a4b8;
+  --color-line: #223049;
+  --color-accent: #d4b36a;
+}
+
+/* Light theme */
+.light {
+  --color-bg: #f8fafc;
+  --color-card: #ffffff;
+  --color-text: #1e293b;
+  --color-muted: #64748b;
+  --color-line: #e2e8f0;
+  --color-accent: #b8860b;
+}
+
+/* Apply theme colors */
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+/* Smooth transitions for theme changes */
+* {
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}

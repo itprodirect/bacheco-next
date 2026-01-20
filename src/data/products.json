@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "sku": "peace-1922-bu",
+      "name": "1922 Peace Dollar - Brilliant Uncirculated",
+      "shortName": "1922 Peace BU",
+      "description": "Beautiful BU 1922 Peace Dollar, the most common date in the series. Each coin contains 0.77344 troy oz of pure silver.",
+      "weightOz": 0.77344,
+      "purity": 0.9,
+      "premiumTiers": [
+        { "minQty": 1, "maxQty": 4, "premium": 22, "label": "1-4 coins" },
+        { "minQty": 5, "maxQty": 9, "premium": 20, "label": "5-9 coins" },
+        { "minQty": 10, "maxQty": 19, "premium": 18, "label": "10-19 coins" },
+        { "minQty": 20, "maxQty": null, "premium": 15, "label": "20+ coins" }
+      ],
+      "images": [
+        "/images/products/peace-1922-obverse.jpg",
+        "/images/products/peace-1922-reverse.jpg"
+      ],
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "sku": "morgan-common-bu",
+      "name": "Morgan Dollar (Common Date) - Brilliant Uncirculated",
+      "shortName": "Morgan BU",
+      "description": "Raw BU Morgan Dollar, common date. Each coin contains 0.77344 troy oz of pure silver. Dates vary based on inventory.",
+      "weightOz": 0.77344,
+      "purity": 0.9,
+      "premiumTiers": [
+        { "minQty": 1, "maxQty": 4, "premium": 22, "label": "1-4 coins" },
+        { "minQty": 5, "maxQty": 9, "premium": 20, "label": "5-9 coins" },
+        { "minQty": 10, "maxQty": 19, "premium": 18, "label": "10-19 coins" },
+        { "minQty": 20, "maxQty": null, "premium": 15, "label": "20+ coins" }
+      ],
+      "images": [
+        "/images/products/morgan-obverse.jpg",
+        "/images/products/morgan-reverse.jpg"
+      ],
+      "inStock": true,
+      "featured": true
+    }
+  ],
+  "spotPriceFallback": 90.0,
+  "lastUpdated": "2026-01-19"
+}
