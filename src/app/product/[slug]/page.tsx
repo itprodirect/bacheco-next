@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { PriceCalculator } from "@/components/product/PriceCalculator";
 import { PremiumTierTable } from "@/components/product/PremiumTierTable";
+import { ProductImageGallery } from "@/components/product/ProductImageGallery";
 import { SpotPriceBanner } from "@/components/shared/SpotPriceBanner";
 import { Badge } from "@/components/ui/Badge";
 import productData from "@/data/products.json";
@@ -69,14 +70,12 @@ export default async function ProductPage({ params }: ProductPageProps) {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         {/* Left Column: Product Info */}
         <div>
-          {/* Product Image Placeholder */}
-          <div
-            className="aspect-square rounded-lg mb-6 flex items-center justify-center"
-            style={{ backgroundColor: "var(--color-line)" }}
-          >
-            <span style={{ color: "var(--color-muted)" }}>
-              Product Image Coming Soon
-            </span>
+          {/* Product Images */}
+          <div className="mb-6">
+            <ProductImageGallery
+              images={product.images}
+              productName={product.name}
+            />
           </div>
 
           {/* Badges */}
