@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Playfair_Display, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/context/ThemeContext";
 import { Header } from "@/components/layout/Header";
@@ -8,6 +8,18 @@ import { Footer } from "@/components/layout/Footer";
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
+});
+
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+  variable: "--font-playfair",
+  display: "swap",
+});
+
+const jetbrainsMono = JetBrains_Mono({
+  subsets: ["latin"],
+  variable: "--font-mono",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -40,8 +52,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
-      <body className={`${inter.variable} font-sans min-h-screen flex flex-col`}>
+    <html lang="en" className={`dark ${playfair.variable} ${inter.variable} ${jetbrainsMono.variable}`}>
+      <body className="font-inter min-h-screen flex flex-col">
         <ThemeProvider>
           <Header />
           <main className="flex-1">{children}</main>
