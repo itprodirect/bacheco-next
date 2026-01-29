@@ -1,0 +1,602 @@
+{
+  "categories": [
+    {
+      "slug": "carson-city",
+      "name": "Carson City Morgans",
+      "description": "Coins from the legendary Carson City Mint (1878-1893). Highly prized by collectors for their Wild West heritage."
+    },
+    {
+      "slug": "morgan-dollars",
+      "name": "Morgan Dollars",
+      "description": "America's most collected silver dollar series (1878-1921). Classic designs by George T. Morgan."
+    },
+    {
+      "slug": "peace-dollars",
+      "name": "Peace Dollars",
+      "description": "America's last circulating silver dollar (1921-1935). Symbol of post-WWI optimism."
+    },
+    {
+      "slug": "walking-liberty",
+      "name": "Walking Liberty Halves",
+      "description": "Considered one of the most beautiful US coin designs (1916-1947). Designed by Adolph Weinman."
+    },
+    {
+      "slug": "barber-halves",
+      "name": "Barber Half Dollars",
+      "description": "Classic Liberty Head design by Charles Barber (1892-1915). Popular with type collectors."
+    },
+    {
+      "slug": "capped-bust",
+      "name": "Capped Bust Half Dollars",
+      "description": "Early American coinage (1807-1839). Historic pieces from the early US Mint."
+    }
+  ],
+  "coins": [
+    {
+      "sku": "1881-cc-morgan-bu",
+      "name": "1881-CC Morgan Dollar BU",
+      "shortName": "1881-CC Morgan",
+      "year": 1881,
+      "mintMark": "CC",
+      "type": "morgan",
+      "mintage": 296000,
+      "grade": "BU",
+      "certification": { "service": "raw" },
+      "price": 485,
+      "priceType": "fixed",
+      "rarity": "better-date",
+      "featured": true,
+      "category": ["carson-city", "morgan-dollars"],
+      "images": {
+        "obverse": "/images/products/1881 CC Obverse (2020_10_06 13_13_11 UTC).jpg",
+        "reverse": "/images/products/1881 CC Reverse (2020_10_06 13_13_11 UTC).jpg"
+      },
+      "description": "A stunning example from the Carson City Mint with excellent luster and eye appeal. The 1881-CC had a low mintage of only 296,000 coins, making it one of the scarcer CC Morgans. This piece displays beautiful frosty surfaces.",
+      "highlights": [
+        "Low mintage Carson City date",
+        "Excellent original luster",
+        "Popular with CC collectors",
+        "Problem-free surfaces"
+      ],
+      "status": "available",
+      "quantity": 1,
+      "dateAdded": "2026-01-29",
+      "lastUpdated": "2026-01-29"
+    },
+    {
+      "sku": "1895-morgan-p",
+      "name": "1895 Morgan Dollar",
+      "shortName": "1895 Morgan",
+      "year": 1895,
+      "mintMark": "P",
+      "type": "morgan",
+      "mintage": 12880,
+      "grade": "Circulated",
+      "certification": { "service": "raw" },
+      "price": 0,
+      "priceType": "call",
+      "rarity": "key-date",
+      "featured": true,
+      "category": ["morgan-dollars"],
+      "images": {
+        "obverse": "/images/products/1895 Morgan Silver Dollar Obverse (2020_10_06 13_13_11 UTC).JPG",
+        "reverse": "/images/products/1895 Morgan Silver Dollar Reverse (2020_10_06 13_13_11 UTC).JPG"
+      },
+      "description": "The 'King of Morgan Dollars' - only 12,880 proofs were struck with no business strikes confirmed. This is one of the most sought-after dates in the entire Morgan series. Contact us for pricing and authentication details.",
+      "highlights": [
+        "Proof-only issue",
+        "King of Morgan Dollars",
+        "Extremely rare",
+        "Contact for pricing"
+      ],
+      "status": "available",
+      "quantity": 1,
+      "dateAdded": "2026-01-29",
+      "lastUpdated": "2026-01-29"
+    },
+    {
+      "sku": "1893-morgan-p",
+      "name": "1893 Morgan Dollar",
+      "shortName": "1893 Morgan",
+      "year": 1893,
+      "mintMark": "P",
+      "type": "morgan",
+      "mintage": 389792,
+      "grade": "VF-XF",
+      "certification": { "service": "raw" },
+      "price": 285,
+      "priceType": "fixed",
+      "rarity": "semi-key",
+      "featured": false,
+      "category": ["morgan-dollars"],
+      "images": {
+        "obverse": "/images/products/1893 Morgan Silver Dollar Obverse (2020_10_06 13_13_11 UTC).JPG",
+        "reverse": "/images/products/1893 Morgan Silver Dollar Reverse (2020_10_06 13_13_11 UTC).JPG"
+      },
+      "description": "A scarce Philadelphia issue with low mintage. The 1893 is an underrated semi-key date that often gets overshadowed by the famous 1893-S. Shows honest circulation with good remaining detail.",
+      "highlights": [
+        "Low mintage Philadelphia date",
+        "Semi-key in the series",
+        "Original surfaces",
+        "Affordable key date"
+      ],
+      "status": "available",
+      "quantity": 1,
+      "dateAdded": "2026-01-29",
+      "lastUpdated": "2026-01-29"
+    },
+    {
+      "sku": "1896-o-morgan",
+      "name": "1896-O Morgan Dollar",
+      "shortName": "1896-O Morgan",
+      "year": 1896,
+      "mintMark": "O",
+      "type": "morgan",
+      "mintage": 4900000,
+      "grade": "VF-XF",
+      "certification": { "service": "raw" },
+      "price": 95,
+      "priceType": "fixed",
+      "rarity": "better-date",
+      "featured": false,
+      "category": ["morgan-dollars"],
+      "images": {
+        "obverse": "/images/products/1896 O Morgan Silver Dollar Obverse (2020_10_06 13_13_11 UTC).JPG",
+        "reverse": "/images/products/1896 O Morgan Silver Dollar Reverse (2020_10_06 13_13_11 UTC).JPG"
+      },
+      "description": "New Orleans Mint Morgan with good detail for the grade. The 1896-O is a semi-key date that's challenging to find in higher grades. A solid addition to any Morgan collection.",
+      "highlights": [
+        "New Orleans Mint issue",
+        "Semi-key date",
+        "Good remaining detail",
+        "Popular with collectors"
+      ],
+      "status": "available",
+      "quantity": 1,
+      "dateAdded": "2026-01-29",
+      "lastUpdated": "2026-01-29"
+    },
+    {
+      "sku": "1878-p-morgan",
+      "name": "1878 Morgan Dollar (Philadelphia)",
+      "shortName": "1878 Morgan",
+      "year": 1878,
+      "mintMark": "P",
+      "type": "morgan",
+      "mintage": 10509550,
+      "grade": "AU",
+      "certification": { "service": "raw" },
+      "price": 85,
+      "priceType": "fixed",
+      "rarity": "common",
+      "featured": false,
+      "category": ["morgan-dollars"],
+      "images": {
+        "obverse": "/images/products/1878 P Obverse (2020_10_06 13_13_11 UTC).jpg",
+        "reverse": "/images/products/1878 P Reverse (2020_10_06 13_13_11 UTC).jpg"
+      },
+      "description": "First year of the Morgan Dollar series. This Philadelphia Mint example shows lovely detail and minimal wear. A must-have for type collectors and those building a Morgan set.",
+      "highlights": [
+        "First year Morgan Dollar",
+        "Philadelphia Mint",
+        "Great type coin",
+        "Nearly uncirculated"
+      ],
+      "status": "available",
+      "quantity": 1,
+      "dateAdded": "2026-01-29",
+      "lastUpdated": "2026-01-29"
+    },
+    {
+      "sku": "1878-s-morgan",
+      "name": "1878-S Morgan Dollar",
+      "shortName": "1878-S Morgan",
+      "year": 1878,
+      "mintMark": "S",
+      "type": "morgan",
+      "mintage": 9774000,
+      "grade": "BU",
+      "certification": { "service": "raw" },
+      "price": 95,
+      "priceType": "fixed",
+      "rarity": "common",
+      "featured": false,
+      "category": ["morgan-dollars"],
+      "images": {
+        "obverse": "/images/products/1878 S Obverse (2020_10_06 13_13_11 UTC).jpg",
+        "reverse": "/images/products/1878 S Reverse (2020_10_06 13_13_11 UTC).jpg"
+      },
+      "description": "First year San Francisco Morgan in brilliant uncirculated condition. Known for typically strong strikes, this example displays excellent detail and luster.",
+      "highlights": [
+        "First year issue",
+        "San Francisco Mint",
+        "Brilliant Uncirculated",
+        "Strong strike typical of SF"
+      ],
+      "status": "available",
+      "quantity": 1,
+      "dateAdded": "2026-01-29",
+      "lastUpdated": "2026-01-29"
+    },
+    {
+      "sku": "1921-d-morgan-zerbe",
+      "name": "1921-D Morgan Dollar (Zerbe Proof)",
+      "shortName": "1921-D Zerbe Proof",
+      "year": 1921,
+      "mintMark": "D",
+      "type": "morgan",
+      "variety": "Zerbe Proof",
+      "mintage": 20345000,
+      "grade": "Proof-Like",
+      "certification": { "service": "raw" },
+      "price": 0,
+      "priceType": "call",
+      "rarity": "ultra-rare",
+      "featured": true,
+      "category": ["morgan-dollars"],
+      "images": {
+        "obverse": "/images/products/1921 D Morgan Silver Dollar Obverse Proof.Zerbe (2020_10_06 13_13_11 UTC).JPG",
+        "reverse": "/images/products/1921 D Morgan Silver Dollar Reverse ProofZerbe (2020_10_06 13_13_11 UTC).JPG"
+      },
+      "description": "An extraordinary coin - purportedly a Zerbe Proof from 1921-D. Farran Zerbe was the ANA's first paid numismatist who commissioned special strikings. If authenticated, this would be an exceptional rarity. Contact for details.",
+      "highlights": [
+        "Purported Zerbe Proof",
+        "Exceptional rarity if authentic",
+        "Proof-like surfaces",
+        "Contact for authentication"
+      ],
+      "status": "available",
+      "quantity": 1,
+      "dateAdded": "2026-01-29",
+      "lastUpdated": "2026-01-29"
+    },
+    {
+      "sku": "1922-peace-bu",
+      "name": "1922 Peace Dollar BU",
+      "shortName": "1922 Peace BU",
+      "year": 1922,
+      "mintMark": "P",
+      "type": "peace",
+      "mintage": 51737000,
+      "grade": "BU",
+      "weightOz": 0.77344,
+      "certification": { "service": "raw" },
+      "price": 0,
+      "priceType": "spot-based",
+      "rarity": "common",
+      "featured": true,
+      "category": ["peace-dollars"],
+      "images": {
+        "obverse": "/images/products/1922 Peace BU Obverse (2020_10_06 13_13_11 UTC).JPG",
+        "reverse": "/images/products/1922 Peace BU Reverse (2020_10_06 13_13_11 UTC).JPG"
+      },
+      "description": "Beautiful BU 1922 Peace Dollar, the most common date in the series but a classic design. Each coin contains 0.77344 troy oz of pure silver. Price based on current silver spot plus premium.",
+      "highlights": [
+        "Brilliant Uncirculated condition",
+        "Contains 0.77344 oz silver",
+        "Most popular Peace dollar date",
+        "Spot-based pricing"
+      ],
+      "status": "available",
+      "quantity": 10,
+      "dateAdded": "2026-01-29",
+      "lastUpdated": "2026-01-29"
+    },
+    {
+      "sku": "1922-peace-deep-strike",
+      "name": "1922 Peace Dollar Deep Strike MS",
+      "shortName": "1922 Peace Deep Strike",
+      "year": 1922,
+      "mintMark": "P",
+      "type": "peace",
+      "variety": "Deep Strike",
+      "mintage": 51737000,
+      "grade": "MS-63+",
+      "certification": { "service": "raw" },
+      "price": 125,
+      "priceType": "fixed",
+      "rarity": "common",
+      "featured": false,
+      "category": ["peace-dollars"],
+      "images": {
+        "obverse": "/images/products/1922 Peace Dollar MS Deep Strike Obverse (2020_10_06 13_13_11 UTC).JPG",
+        "reverse": "/images/products/1922 Peace Dollar MS Deep Strike Reverse (2020_10_06 13_13_11 UTC).JPG"
+      },
+      "description": "An exceptional 1922 Peace Dollar with notably deep strike showing all hair detail. While 1922 is a common date, pieces with full strike like this command a premium among collectors.",
+      "highlights": [
+        "Exceptional strike quality",
+        "Full hair detail visible",
+        "Choice Mint State",
+        "Premium example"
+      ],
+      "status": "available",
+      "quantity": 1,
+      "dateAdded": "2026-01-29",
+      "lastUpdated": "2026-01-29"
+    },
+    {
+      "sku": "1925-peace-gem-bu",
+      "name": "1925 Peace Dollar Choice Gem BU",
+      "shortName": "1925 Peace Gem",
+      "year": 1925,
+      "mintMark": "P",
+      "type": "peace",
+      "mintage": 10198000,
+      "grade": "MS-65",
+      "certification": { "service": "raw" },
+      "price": 185,
+      "priceType": "fixed",
+      "rarity": "common",
+      "featured": true,
+      "category": ["peace-dollars"],
+      "images": {
+        "obverse": "/images/products/1925 Choice Gem BU Peace Silver Dollar Obverse (2020_10_06 13_13_11 UTC).JPG",
+        "reverse": "/images/products/1925 Choice Gem BU Peace Silver Dollar Reverse (2020_10_06 13_13_11 UTC).JPG"
+      },
+      "description": "A stunning gem quality 1925 Peace Dollar with exceptional luster and minimal marks. The 1925 is known for well-struck examples, and this piece exemplifies that reputation.",
+      "highlights": [
+        "Gem Uncirculated quality",
+        "Exceptional eye appeal",
+        "Strong luster",
+        "Premium example"
+      ],
+      "status": "available",
+      "quantity": 1,
+      "dateAdded": "2026-01-29",
+      "lastUpdated": "2026-01-29"
+    },
+    {
+      "sku": "1926-s-peace-error",
+      "name": "1926-S Peace Dollar Die Crack Error XF",
+      "shortName": "1926-S Die Crack Error",
+      "year": 1926,
+      "mintMark": "S",
+      "type": "peace",
+      "variety": "Die Crack Error",
+      "mintage": 6980000,
+      "grade": "XF-45",
+      "certification": { "service": "raw" },
+      "price": 125,
+      "priceType": "fixed",
+      "rarity": "better-date",
+      "featured": false,
+      "category": ["peace-dollars"],
+      "images": {
+        "obverse": "/images/products/1926 S Peace Dollar Die Crack Error XF Obverse (2020_10_06 13_13_11 UTC).JPG",
+        "reverse": "/images/products/1926 S Peace Dollar Die Crack Error XF Reverse (2020_10_06 13_13_11 UTC).JPG"
+      },
+      "description": "An interesting 1926-S Peace Dollar displaying a visible die crack error. Error coins are popular with collectors who appreciate the unique characteristics of coins struck from damaged dies.",
+      "highlights": [
+        "Visible die crack error",
+        "San Francisco Mint",
+        "Popular with error collectors",
+        "XF grade with good detail"
+      ],
+      "status": "available",
+      "quantity": 1,
+      "dateAdded": "2026-01-29",
+      "lastUpdated": "2026-01-29"
+    },
+    {
+      "sku": "1810-capped-bust-half",
+      "name": "1810 Capped Bust Half Dollar",
+      "shortName": "1810 Capped Bust",
+      "year": 1810,
+      "mintMark": "P",
+      "type": "capped-bust",
+      "mintage": 1276276,
+      "grade": "VF",
+      "certification": { "service": "raw" },
+      "price": 325,
+      "priceType": "fixed",
+      "rarity": "better-date",
+      "featured": true,
+      "category": ["capped-bust"],
+      "images": {
+        "obverse": "/images/products/1810 Capped Bust Half Dollar Obverse (2020_10_06 13_13_11 UTC).JPG",
+        "reverse": "/images/products/1810 Capped Bust Half Dollar Reverse (2020_10_06 13_13_11 UTC).JPG"
+      },
+      "description": "A beautiful early American half dollar from 1810, featuring John Reich's classic Capped Bust design. This piece represents over 200 years of American history.",
+      "highlights": [
+        "Over 200 years old",
+        "Classic Capped Bust design",
+        "Early American coinage",
+        "VF grade with good detail"
+      ],
+      "status": "available",
+      "quantity": 1,
+      "dateAdded": "2026-01-29",
+      "lastUpdated": "2026-01-29"
+    },
+    {
+      "sku": "1811-capped-bust-half",
+      "name": "1811 Capped Bust Half Dollar",
+      "shortName": "1811 Capped Bust",
+      "year": 1811,
+      "mintMark": "P",
+      "type": "capped-bust",
+      "mintage": 1203644,
+      "grade": "VF",
+      "certification": { "service": "raw" },
+      "price": 295,
+      "priceType": "fixed",
+      "rarity": "better-date",
+      "featured": false,
+      "category": ["capped-bust"],
+      "images": {
+        "obverse": "/images/products/1811 Capped Bust Half Dollar Obverse (2020_10_06 13_13_11 UTC).JPG",
+        "reverse": "/images/products/1811 Capped Bust Half Dollar Reverse (2020_10_06 13_13_11 UTC).JPG"
+      },
+      "description": "An attractive 1811 Capped Bust Half Dollar with nice eye appeal for the grade. These early halves are highly collectible and represent a fascinating period in US Mint history.",
+      "highlights": [
+        "Early US Mint issue",
+        "Capped Bust design",
+        "Good eye appeal",
+        "Collectible grade"
+      ],
+      "status": "available",
+      "quantity": 1,
+      "dateAdded": "2026-01-29",
+      "lastUpdated": "2026-01-29"
+    },
+    {
+      "sku": "1916-walking-liberty-half",
+      "name": "1916 Walking Liberty Half Dollar",
+      "shortName": "1916 Walker",
+      "year": 1916,
+      "mintMark": "P",
+      "type": "walking-liberty",
+      "mintage": 608000,
+      "grade": "VF-XF",
+      "certification": { "service": "raw" },
+      "price": 85,
+      "priceType": "fixed",
+      "rarity": "better-date",
+      "featured": true,
+      "category": ["walking-liberty"],
+      "images": {
+        "obverse": "/images/products/1916 Half Dollar Obverse (2020_10_06 13_13_11 UTC).JPG",
+        "reverse": "/images/products/1916 Half Dollar Reverse (2020_10_06 13_13_11 UTC).JPG"
+      },
+      "description": "First year of Adolph Weinman's magnificent Walking Liberty design, widely considered one of the most beautiful US coin designs ever created. The 1916 Philadelphia issue is a key date with low mintage.",
+      "highlights": [
+        "First year of series",
+        "Low mintage key date",
+        "Beautiful Weinman design",
+        "Must-have for collectors"
+      ],
+      "status": "available",
+      "quantity": 1,
+      "dateAdded": "2026-01-29",
+      "lastUpdated": "2026-01-29"
+    },
+    {
+      "sku": "1916-d-walking-liberty-rev",
+      "name": "1916-D Walking Liberty Half (Reverse Mint Mark)",
+      "shortName": "1916-D Reverse MM",
+      "year": 1916,
+      "mintMark": "D",
+      "type": "walking-liberty",
+      "variety": "Reverse Mint Mark",
+      "mintage": 1014400,
+      "grade": "VF",
+      "certification": { "service": "raw" },
+      "price": 95,
+      "priceType": "fixed",
+      "rarity": "better-date",
+      "featured": false,
+      "category": ["walking-liberty"],
+      "images": {
+        "obverse": "/images/products/1916 D Reverse Variety Half Dollar Obverse (2020_10_06 13_13_11 UTC).JPG",
+        "reverse": "/images/products/1916 D Reverse Variety Half Dollar Reverse (2020_10_06 13_13_11 UTC).JPG"
+      },
+      "description": "First year Denver Mint Walking Liberty with the mint mark on the reverse (moved to obverse in 1917). This variety is collectible as it represents the original design intent.",
+      "highlights": [
+        "First year Denver issue",
+        "Reverse mint mark variety",
+        "Original design placement",
+        "Collectible variety"
+      ],
+      "status": "available",
+      "quantity": 1,
+      "dateAdded": "2026-01-29",
+      "lastUpdated": "2026-01-29"
+    },
+    {
+      "sku": "1917-s-walking-liberty-obv",
+      "name": "1917-S Walking Liberty Half (Obverse Mint Mark) XF",
+      "shortName": "1917-S Obverse MM",
+      "year": 1917,
+      "mintMark": "S",
+      "type": "walking-liberty",
+      "variety": "Obverse Mint Mark",
+      "mintage": 952000,
+      "grade": "XF-45",
+      "certification": { "service": "raw" },
+      "price": 125,
+      "priceType": "fixed",
+      "rarity": "semi-key",
+      "featured": false,
+      "category": ["walking-liberty"],
+      "images": {
+        "obverse": "/images/products/1917 S Obverse Variety Half Dollar XF Obverse (2020_10_06 13_13_11 UTC).JPG",
+        "reverse": "/images/products/1917 S Obverse Variety Half Dollar XF Reverse (2020_10_06 13_13_11 UTC).JPG"
+      },
+      "description": "A scarce 1917-S Walking Liberty with the obverse mint mark variety. The mint mark was moved to the obverse in 1917, creating both obverse and reverse varieties that year.",
+      "highlights": [
+        "Scarce obverse mint mark",
+        "Low mintage variety",
+        "XF grade",
+        "Popular variety"
+      ],
+      "status": "available",
+      "quantity": 1,
+      "dateAdded": "2026-01-29",
+      "lastUpdated": "2026-01-29"
+    },
+    {
+      "sku": "1892-s-barber-half",
+      "name": "1892-S Barber Half Dollar",
+      "shortName": "1892-S Barber",
+      "year": 1892,
+      "mintMark": "S",
+      "type": "barber",
+      "mintage": 1029028,
+      "grade": "VF",
+      "certification": { "service": "raw" },
+      "price": 145,
+      "priceType": "fixed",
+      "rarity": "semi-key",
+      "featured": false,
+      "category": ["barber-halves"],
+      "images": {
+        "obverse": "/images/products/1892 S Barber Half Obverse (2020_10_06 13_13_11 UTC).JPG",
+        "reverse": "/images/products/1892 S Barber Half Reverse (2020_10_06 13_13_11 UTC).JPG"
+      },
+      "description": "First year San Francisco Barber Half Dollar. The 1892-S is a semi-key date with lower mintage than the Philadelphia issue. Shows good detail with honest wear.",
+      "highlights": [
+        "First year of series",
+        "San Francisco Mint",
+        "Semi-key date",
+        "Good remaining detail"
+      ],
+      "status": "available",
+      "quantity": 1,
+      "dateAdded": "2026-01-29",
+      "lastUpdated": "2026-01-29"
+    },
+    {
+      "sku": "1893-s-barber-half",
+      "name": "1893-S Barber Half Dollar",
+      "shortName": "1893-S Barber",
+      "year": 1893,
+      "mintMark": "S",
+      "type": "barber",
+      "mintage": 740000,
+      "grade": "VG-F",
+      "certification": { "service": "raw" },
+      "price": 125,
+      "priceType": "fixed",
+      "rarity": "semi-key",
+      "featured": false,
+      "category": ["barber-halves"],
+      "images": {
+        "obverse": "/images/products/1893 S Barber Half Obverse (2020_10_06 13_13_11 UTC).JPG",
+        "reverse": "/images/products/1893 S Barber Half Reverse (2020_10_06 13_13_11 UTC).JPG"
+      },
+      "description": "A scarce 1893-S Barber Half Dollar with low mintage of only 740,000 coins. A solid example for the Barber Half collector building a date set.",
+      "highlights": [
+        "Low mintage",
+        "Semi-key date",
+        "San Francisco Mint",
+        "Affordable rarity"
+      ],
+      "status": "available",
+      "quantity": 1,
+      "dateAdded": "2026-01-29",
+      "lastUpdated": "2026-01-29"
+    }
+  ],
+  "spotPriceFallback": 32.50,
+  "lastUpdated": "2026-01-29"
+}
