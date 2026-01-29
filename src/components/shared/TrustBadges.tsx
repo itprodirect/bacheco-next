@@ -1,3 +1,5 @@
+import type { ReactNode } from "react";
+
 interface TrustBadge {
   icon: string;
   title: string;
@@ -28,7 +30,7 @@ const badges: TrustBadge[] = [
 ];
 
 // Simple SVG icons
-const icons: Record<string, JSX.Element> = {
+const icons: Record<string, ReactNode> = {
   shield: (
     <svg
       className="w-6 h-6"

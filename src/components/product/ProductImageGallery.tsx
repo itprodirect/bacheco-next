@@ -131,14 +131,12 @@ export function ProductImageGallery({
                 onClick={() => setSelectedIndex(index)}
                 className={`relative w-20 h-20 rounded-lg overflow-hidden transition-all duration-200 ${
                   selectedIndex === index
-                    ? "ring-2 ring-offset-2 scale-105"
+                    ? "ring-2 ring-gold-400 ring-offset-2 ring-offset-dark-primary scale-105"
                     : "opacity-70 hover:opacity-100"
                 }`}
                 style={{
                   backgroundColor: "var(--color-card)",
                   border: "1px solid var(--color-line)",
-                  ringColor: "var(--color-accent)",
-                  ringOffsetColor: "var(--color-bg)",
                 }}
                 aria-label={`View ${imageLabels[index] || `image ${index + 1}`}`}
               >
