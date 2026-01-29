@@ -43,3 +43,13 @@ next-env.d.ts
 npm-install.log
 .claude/
 public/images/products/
+
+# Product photos / uploads (never commit)
+public/images/products/
+public/images/products_raw/
+public/uploads/
+uploads/
+*.heic
+*.jpeg
+*.jpg
+*.png
