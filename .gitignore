@@ -42,3 +42,4 @@ next-env.d.ts
 # Local files
 npm-install.log
 .claude/
+public/images/products/
