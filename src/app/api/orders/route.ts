@@ -30,6 +30,9 @@ export async function POST(request: Request) {
     console.log("Submitted:", new Date().toISOString());
     console.log("==========================");
 
+    // Extract additional coin data from request body
+    const { coinSku, coinPrice, coinPriceType } = body;
+
     // Send email notifications
     const emailData = {
       orderId,
@@ -40,6 +43,9 @@ export async function POST(request: Request) {
       quantity: order.quantity,
       shippingAddress: order.shippingAddress,
       notes: order.notes,
+      coinSku,
+      coinPrice,
+      coinPriceType,
     };
 
     try {
